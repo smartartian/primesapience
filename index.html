@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="北京原初智性科技有限公司，专注 AI 应用开发与 AI 内容创作，将模型能力转化为可交付、可持续进化的业务系统与内容资产。"
+    />
+    <meta name="theme-color" content="#0a0d10" />
+    <meta property="og:title" content="原初智性｜AI 应用开发与 AI 内容创作" />
+    <meta
+      property="og:description"
+      content="让智能从原初，走向真实业务。"
+    />
+    <meta property="og:type" content="website" />
+    <title>原初智性｜AI 应用开发与 AI 内容创作</title>
+    <link rel="icon" type="image/png" href="./assets/original-logo.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <div class="scroll-progress" aria-hidden="true">
+      <span></span>
+    </div>
+
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="原初智性首页">
+        <img
+          class="brand__mark"
+          src="./assets/original-logo.png"
+          alt=""
+          width="44"
+          height="44"
+        />
+        <span class="brand__type">
+          <strong>原初智性</strong>
+          <small>YUANCHU INTELLIGENCE</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="页面导航">
+        <a href="#services">业务</a>
+        <a href="#capabilities">能力</a>
+        <a href="#method">方法</a>
+        <a href="#scenarios">场景</a>
+        <a href="#company">公司</a>
+      </nav>
+
+      <a class="header-cta" href="#services">
+        <span>查看业务</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 7h10v10" />
+          <path d="M7 17 17 7" />
+        </svg>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="打开导航"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 7h16" />
+          <path d="M4 12h16" />
+          <path d="M4 17h16" />
+        </svg>
+      </button>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <nav aria-label="移动端导航">
+        <a href="#services">业务</a>
+        <a href="#capabilities">能力</a>
+        <a href="#method">方法</a>
+        <a href="#scenarios">场景</a>
+        <a href="#company">公司</a>
+      </nav>
+      <div class="mobile-nav__meta">
+        <span>AI 应用开发</span>
+        <span>AI 内容创作</span>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <canvas id="signal-canvas" aria-hidden="true"></canvas>
+        <div class="hero__grid" aria-hidden="true"></div>
+        <div class="hero__inner">
+          <div class="hero__brand-lockup reveal">
+            <img
+              src="./assets/original-logo.png"
+              alt="原初智性 logo"
+              width="64"
+              height="64"
+            />
+            <span>原初智性 · 让智能进入真实业务</span>
+          </div>
+
+          <h1 class="reveal" data-delay="1">
+            <span class="hero-line">让智能从原初，</span>
+            <span>走向真实业务。</span>
+          </h1>
+
+          <p class="hero__lede reveal" data-delay="2">
+            北京原初智性科技有限公司，专注 AI 应用开发与 AI 内容创作。
+            我们把模型能力、行业知识与工作流重新组织，交付可落地、可复用、可持续进化的解决方案。
+          </p>
+
+          <div class="hero__actions reveal" data-delay="3">
+            <a class="button button--primary" href="#services">
+              <span>查看核心业务</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
+            </a>
+            <a class="button button--ghost" href="#method">
+              <span>了解交付方法</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 5v14" />
+                <path d="m19 12-7 7-7-7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__signal reveal" data-delay="4" aria-hidden="true">
+          <span class="signal-dot"></span>
+          <span>INTELLIGENCE IN MOTION</span>
+          <span class="signal-line"></span>
+          <span>北京 · 中国</span>
+        </div>
+
+        <div class="hero__tracks">
+          <a href="#services" class="track">
+            <span>01</span>
+            <strong>AI 应用开发</strong>
+            <small>把能力做成产品与系统</small>
+          </a>
+          <a href="#services" class="track">
+            <span>02</span>
+            <strong>AI 内容创作</strong>
+            <small>把创意变成稳定的生产力</small>
+          </a>
+          <a href="#method" class="track">
+            <span>03</span>
+            <strong>从场景到交付</strong>
+            <small>过程透明，结果可衡量</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="statement">
+        <div class="section-shell statement__grid">
+          <p class="section-kicker reveal">我们的判断</p>
+          <div class="statement__copy">
+            <h2 class="reveal">
+              企业不缺模型，
+              <span>缺的是把模型变成成果的方法。</span>
+            </h2>
+            <div class="statement__aside reveal" data-delay="1">
+              <p>
+                真正有效的 AI，不是演示时惊艳一次，而是能进入业务流程、内容生产与组织协作，
+                在日常使用中持续产生价值。
+              </p>
+              <div class="statement__index" aria-label="原初智性的三个关键词">
+                <span>场景</span>
+                <span>系统</span>
+                <span>增长</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker reveal">核心业务</p>
+            <div>
+              <h2 class="reveal">
+                两条能力线，
+                <span>一个交付标准。</span>
+              </h2>
+              <p class="section-intro reveal" data-delay="1">
+                从业务判断、技术方案到上线迭代，统一由同一套产品思维贯穿。
+                既能构建智能应用，也能建立持续产出高质量内容的 AI 工作流。
+              </p>
+            </div>
+          </div>
+
+          <article class="service-row reveal">
+            <div class="service-row__index">
+              <span>01</span>
+              <p>BUILD WITH AI</p>
+            </div>
+            <div class="service-row__body">
+              <div class="service-row__heading">
+                <h3>AI 应用开发</h3>
+                <p>
+                  将大模型、知识库、业务数据与现有系统连接起来，构建真正可用的智能产品与业务工具。
+                </p>
+              </div>
+              <div class="service-list">
+                <div>
+                  <span>01.1</span>
+                  <h4>企业级智能助手</h4>
+                  <p>面向知识问答、数据分析、客户服务与内部协作的专属 AI 助手。</p>
+                </div>
+                <div>
+                  <span>01.2</span>
+                  <h4>业务流程 Agent</h4>
+                  <p>让智能体接入审批、销售、运营、研发等流程，执行多步骤业务任务。</p>
+                </div>
+                <div>
+                  <span>01.3</span>
+                  <h4>AI 原生产品</h4>
+                  <p>从需求定义、原型验证到完整产品实现，打造以 AI 为核心体验的新产品。</p>
+                </div>
+                <div>
+                  <span>01.4</span>
+                  <h4>模型与数据编排</h4>
+                  <p>多模型接入、RAG、工具调用、评测与监控，形成稳定可控的技术底座。</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-row reveal">
+            <div class="service-row__index">
+              <span>02</span>
+              <p>CREATE WITH AI</p>
+            </div>
+            <div class="service-row__body">
+              <div class="service-row__heading">
+                <h3>AI 内容创作</h3>
+                <p>
+                  把策略、创意、生成和审核组织成内容生产系统，让品牌表达更快、更稳、更一致。
+                </p>
+              </div>
+              <div class="service-list">
+                <div>
+                  <span>02.1</span>
+                  <h4>品牌内容策略</h4>
+                  <p>梳理品牌语气、内容结构与选题机制，建立可复用的 AI 创作标准。</p>
+                </div>
+                <div>
+                  <span>02.2</span>
+                  <h4>多模态创意生产</h4>
+                  <p>文本、图像、视频与互动内容协同创作，覆盖从概念到成片的生产链路。</p>
+                </div>
+                <div>
+                  <span>02.3</span>
+                  <h4>内容工作流</h4>
+                  <p>策划、生成、审核、分发一体化，让人与 AI 在清晰分工中协作。</p>
+                </div>
+                <div>
+                  <span>02.4</span>
+                  <h4>数字内容资产</h4>
+                  <p>沉淀品牌知识、视觉风格与提示词体系，持续积累可复用的内容资产。</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="capabilities" id="capabilities">
+        <div class="section-shell">
+          <div class="section-heading section-heading--compact">
+            <p class="section-kicker reveal">能力地图</p>
+            <div>
+              <h2 class="reveal">
+                从模型到产品，
+                <span class="heading-break">每一步都有落点。</span>
+              </h2>
+              <p class="section-intro reveal" data-delay="1">
+                不堆叠术语，而是根据目标拆解技术、体验与运营路径，确保每个模块都能服务于最终结果。
+              </p>
+            </div>
+          </div>
+
+          <div class="capability-grid">
+            <article class="capability-card reveal">
+              <div class="capability-card__top">
+                <span>A</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v18" />
+                  <path d="M3 12h18" />
+                  <circle cx="12" cy="12" r="4" />
+                </svg>
+              </div>
+              <h3>场景诊断</h3>
+              <p>识别高价值问题，定义 AI 边界、数据条件与成功标准。</p>
+            </article>
+            <article class="capability-card reveal" data-delay="1">
+              <div class="capability-card__top">
+                <span>B</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 5h16v14H4z" />
+                  <path d="M8 9h8" />
+                  <path d="M8 13h5" />
+                </svg>
+              </div>
+              <h3>产品设计</h3>
+              <p>围绕真实使用链路设计交互、反馈与人机协作方式。</p>
+            </article>
+            <article class="capability-card reveal" data-delay="2">
+              <div class="capability-card__top">
+                <span>C</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 7h16" />
+                  <path d="M4 12h16" />
+                  <path d="M4 17h10" />
+                </svg>
+              </div>
+              <h3>模型工程</h3>
+              <p>完成模型选型、提示词、RAG、Agent 与工程化接入。</p>
+            </article>
+            <article class="capability-card reveal">
+              <div class="capability-card__top">
+                <span>D</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2v6" />
+                  <path d="m5 8 7 4 7-4" />
+                  <path d="M5 16l7 4 7-4" />
+                  <path d="M5 12v8" />
+                  <path d="M19 12v8" />
+                </svg>
+              </div>
+              <h3>系统集成</h3>
+              <p>连接现有系统、数据、权限与工具，让 AI 进入实际流程。</p>
+            </article>
+            <article class="capability-card reveal" data-delay="1">
+              <div class="capability-card__top">
+                <span>E</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m12 3 2.2 6.8H21l-5.5 4 2.1 6.5-5.6-4.1-5.6 4.1 2.1-6.5-5.5-4h6.8z" />
+                </svg>
+              </div>
+              <h3>创意生产</h3>
+              <p>建立从内容策略、视觉表达到规模化生产的完整链路。</p>
+            </article>
+            <article class="capability-card reveal" data-delay="2">
+              <div class="capability-card__top">
+                <span>F</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 19V5" />
+                  <path d="M4 19h16" />
+                  <path d="m7 15 4-4 3 3 5-6" />
+                </svg>
+              </div>
+              <h3>持续迭代</h3>
+              <p>基于反馈、数据和评测持续优化，让系统随业务一起成长。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="method" id="method">
+        <div class="method__orb" aria-hidden="true">
+          <img src="./assets/original-logo.png" alt="" />
+        </div>
+        <div class="section-shell">
+          <div class="method__head">
+            <p class="section-kicker reveal">交付方法</p>
+            <h2 class="reveal">
+              少一点概念验证，
+              <span>多一点真实交付。</span>
+            </h2>
+            <p class="reveal" data-delay="1">
+              我们采用短周期、可验证、可扩展的推进方式，让业务团队始终知道正在解决什么、已经验证什么、下一步得到什么。
+            </p>
+          </div>
+
+          <ol class="method-list">
+            <li class="method-item reveal">
+              <span class="method-item__number">01</span>
+              <div>
+                <h3>对齐价值</h3>
+                <p>从业务目标倒推 AI 场景，明确数据边界、用户角色与衡量标准。</p>
+              </div>
+              <span class="method-item__tag">1-2 周</span>
+            </li>
+            <li class="method-item reveal">
+              <span class="method-item__number">02</span>
+              <div>
+                <h3>原型验证</h3>
+                <p>用真实数据和真实用户验证核心体验，尽早暴露技术及产品风险。</p>
+              </div>
+              <span class="method-item__tag">2-4 周</span>
+            </li>
+            <li class="method-item reveal">
+              <span class="method-item__number">03</span>
+              <div>
+                <h3>产品交付</h3>
+                <p>完成工程实现、系统集成、评测体系与上线部署，形成可用产品。</p>
+              </div>
+              <span class="method-item__tag">按阶段推进</span>
+            </li>
+            <li class="method-item reveal">
+              <span class="method-item__number">04</span>
+              <div>
+                <h3>持续进化</h3>
+                <p>根据使用反馈与数据表现迭代模型、流程和内容，放大长期价值。</p>
+              </div>
+              <span class="method-item__tag">持续迭代</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="scenarios" id="scenarios">
+        <div class="section-shell">
+          <div class="section-heading section-heading--compact">
+            <p class="section-kicker reveal">典型场景</p>
+            <div>
+              <h2 class="reveal">
+                从具体问题开始，
+                <span class="heading-break">从一个可交付结果切入。</span>
+              </h2>
+              <p class="section-intro reveal" data-delay="1">
+                以下场景可作为业务切入点。我们会结合实际业务、数据条件和组织目标，重新定义范围与优先级。
+              </p>
+            </div>
+          </div>
+
+          <div class="scenario-list">
+            <article class="scenario-card reveal">
+              <div class="scenario-card__meta">
+                <span>APPLICATION</span>
+                <span>01</span>
+              </div>
+              <h3>企业知识助手</h3>
+              <p>让分散在文档、系统与团队经验中的知识，被准确检索、理解与调用。</p>
+              <ul>
+                <li>内部知识问答</li>
+                <li>资料检索与归纳</li>
+                <li>岗位专属助手</li>
+              </ul>
+            </article>
+
+            <article class="scenario-card reveal" data-delay="1">
+              <div class="scenario-card__meta">
+                <span>APPLICATION</span>
+                <span>02</span>
+              </div>
+              <h3>业务增长 Copilot</h3>
+              <p>把销售、客户成功与运营经验转为实时辅助，提升一线团队响应与执行质量。</p>
+              <ul>
+                <li>线索洞察</li>
+                <li>沟通辅助</li>
+                <li>流程自动化</li>
+              </ul>
+            </article>
+
+            <article class="scenario-card reveal">
+              <div class="scenario-card__meta">
+                <span>CONTENT</span>
+                <span>03</span>
+              </div>
+              <h3>品牌内容中台</h3>
+              <p>把品牌知识、内容规范与多模态生产工具整合为团队可用的创作系统。</p>
+              <ul>
+                <li>选题与脚本</li>
+                <li>视觉内容生成</li>
+                <li>多平台适配</li>
+              </ul>
+            </article>
+
+            <article class="scenario-card reveal" data-delay="1">
+              <div class="scenario-card__meta">
+                <span>CONTENT</span>
+                <span>04</span>
+              </div>
+              <h3>AI 数字 IP</h3>
+              <p>围绕品牌角色、世界观与内容机制，建立可持续更新的数字内容资产。</p>
+              <ul>
+                <li>角色设定</li>
+                <li>内容系列化</li>
+                <li>互动体验</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="company" id="company">
+        <div class="company__visual" aria-hidden="true">
+          <img src="./assets/original-logo.png" alt="" />
+          <span class="company__mark-line"></span>
+          <span class="company__mark-line company__mark-line--two"></span>
+        </div>
+        <div class="section-shell company__shell">
+          <p class="section-kicker reveal">关于原初</p>
+          <h2 class="reveal">
+            保持对技术的敬畏，
+            <span>也保持对真实问题的诚实。</span>
+          </h2>
+          <div class="company__copy">
+            <p class="reveal">
+              北京原初智性科技有限公司专注于 AI 应用开发与 AI 内容创作。
+              我们相信，AI 的价值不取决于技术有多复杂，而取决于它是否真正进入业务、改善工作、创造新的可能。
+            </p>
+            <p class="reveal" data-delay="1">
+              原初，是每一次创造尚未被定义时的起点。
+              我们期待与你一起，从问题出发，把新的智能能力变成新的业务现实。
+            </p>
+          </div>
+
+          <div class="values">
+            <div class="value reveal">
+              <span>01</span>
+              <h3>业务先行</h3>
+              <p>从结果倒推技术，不为使用 AI 而使用 AI。</p>
+            </div>
+            <div class="value reveal" data-delay="1">
+              <span>02</span>
+              <h3>系统思考</h3>
+              <p>同时关注模型、产品、数据、用户和组织协作。</p>
+            </div>
+            <div class="value reveal" data-delay="2">
+              <span>03</span>
+              <h3>长期主义</h3>
+              <p>交付不是终点，可持续迭代才是真正的完成。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer__top">
+        <a class="brand brand--footer" href="#top" aria-label="返回顶部">
+          <img
+            class="brand__mark"
+            src="./assets/original-logo.png"
+            alt=""
+            width="44"
+            height="44"
+          />
+          <span class="brand__type">
+            <strong>原初智性</strong>
+            <small>YUANCHU INTELLIGENCE</small>
+          </span>
+        </a>
+        <p>让智能从原初，走向真实业务。</p>
+        <a class="back-to-top" href="#top">
+          <span>回到顶部</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m12 19V5" />
+            <path d="m5 12 7-7 7 7" />
+          </svg>
+        </a>
+      </div>
+      <div class="section-shell footer__bottom">
+        <p>© 2026 北京原初智性科技有限公司</p>
+        <div>
+          <span>AI 应用开发</span>
+          <span>AI 内容创作</span>
+          <span>北京 · 中国</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
