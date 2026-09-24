@@ -370,27 +370,6 @@ svg {
   padding-bottom: 188px;
 }
 
-.hero__brand-lockup {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  max-width: 100%;
-  margin-bottom: 30px;
-  color: rgba(238, 243, 244, 0.72);
-  font-size: 12px;
-}
-
-.hero__brand-lockup span {
-  white-space: nowrap;
-}
-
-.hero__brand-lockup img {
-  width: 54px;
-  height: 54px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  border-radius: 9px;
-}
-
 .hero h1 {
   width: 100%;
   max-width: 930px;
@@ -1342,10 +1321,6 @@ svg {
     padding-bottom: 72px;
   }
 
-  .hero__brand-lockup {
-    margin-bottom: 22px;
-  }
-
   .hero h1 {
     font-size: clamp(38px, 11vw, 50px);
   }
@@ -1494,16 +1469,6 @@ svg {
   .hero__inner {
     min-height: 570px;
     padding-bottom: 58px;
-  }
-
-  .hero__brand-lockup img {
-    width: 46px;
-    height: 46px;
-  }
-
-  .hero__brand-lockup {
-    gap: 10px;
-    font-size: 11px;
   }
 
   .hero__actions,
