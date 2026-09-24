@@ -240,32 +240,6 @@ svg {
   transform-origin: left center;
 }
 
-.header-cta {
-  display: inline-flex;
-  align-items: center;
-  justify-self: end;
-  gap: 8px;
-  padding: 10px 14px 10px 16px;
-  color: var(--night);
-  background: var(--white);
-  border-radius: 6px;
-  font-size: 13px;
-  font-weight: 650;
-  transition:
-    background 180ms ease,
-    transform 180ms ease;
-}
-
-.header-cta svg {
-  width: 15px;
-  height: 15px;
-}
-
-.header-cta:hover {
-  background: var(--brand-soft);
-  transform: translateY(-1px);
-}
-
 .menu-toggle {
   display: none;
   align-items: center;
@@ -1284,8 +1258,7 @@ svg {
     padding: 0 18px;
   }
 
-  .desktop-nav,
-  .header-cta {
+  .desktop-nav {
     display: none;
   }
 
