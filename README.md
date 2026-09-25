@@ -14,18 +14,22 @@ python3 -m http.server 4173
 
 仓库已包含 `.github/workflows/deploy-pages.yml`。将代码推送到 `main` 分支后，GitHub Actions 会自动构建静态站点并发布到 GitHub Pages。
 
-发布地址通常为：
+当前发布地址：
 
 ```text
-https://smartartian.github.io/primesapience/
+https://www.primesapience.com/
 ```
 
 ## 文件说明
 
 - `index.html`：页面结构与全部文案
+- `design-system.html`：原初智性设计系统预览页
+- `tokens.css`：共享品牌设计令牌
 - `styles.css`：品牌视觉、响应式布局与动效样式
+- `design-system.css`：设计系统展示页样式
 - `app.js`：导航、滚动反馈和首屏交互画布
 - `assets/original-logo.png`：用户提供的公司 logo 原图
+- `DESIGN_SYSTEM.md`：设计原则、组件与使用规范
 
 ## 上线前建议
 

@@ -1,0 +1,89 @@
+:root {
+  /* Brand palette */
+  --yc-night-950: #05080a;
+  --yc-night-900: #090c0f;
+  --yc-night-800: #10151a;
+  --yc-night-700: #151c21;
+  --yc-paper-100: #f1f0e9;
+  --yc-paper-200: #e3e4dc;
+  --yc-ink-100: #eef3f4;
+  --yc-ink-400: #9ca8ae;
+  --yc-ink-600: #5f6a70;
+  --yc-brand-300: #83dff8;
+  --yc-brand-500: #05a8e5;
+  --yc-brand-700: #008fca;
+  --yc-signal-400: #c7e964;
+  --yc-ember-400: #ff8152;
+  --yc-white: #ffffff;
+
+  /* Semantic color */
+  --ink: var(--yc-ink-100);
+  --muted: var(--yc-ink-400);
+  --muted-dark: var(--yc-ink-600);
+  --night: var(--yc-night-900);
+  --night-soft: var(--yc-night-800);
+  --panel: var(--yc-night-700);
+  --paper: var(--yc-paper-100);
+  --paper-deep: var(--yc-paper-200);
+  --brand: var(--yc-brand-500);
+  --brand-deep: var(--yc-brand-700);
+  --brand-soft: var(--yc-brand-300);
+  --warm: var(--yc-ember-400);
+  --lime: var(--yc-signal-400);
+  --white: var(--yc-white);
+  --line: rgba(238, 243, 244, 0.14);
+  --line-dark: rgba(9, 12, 15, 0.14);
+  --line-strong: rgba(238, 243, 244, 0.24);
+  --surface-glass: rgba(255, 255, 255, 0.045);
+
+  /* Type */
+  --font-sans:
+    "Helvetica Neue",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    sans-serif;
+  --font-mono:
+    "SFMono-Regular",
+    "Cascadia Code",
+    "Roboto Mono",
+    monospace;
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-display: clamp(4rem, 8vw, 7rem);
+  --text-h1: clamp(3rem, 6vw, 5.25rem);
+  --text-h2: clamp(2.625rem, 4.8vw, 4.5rem);
+  --text-h3: clamp(1.625rem, 3vw, 2.5rem);
+
+  /* Spacing: 4px base grid */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-18: 72px;
+  --space-24: 96px;
+  --space-35: 140px;
+
+  /* Layout */
+  --container: 1240px;
+  --header-height: 78px;
+  --grid-line: 80px;
+
+  /* Shape */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius: 8px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --duration-fast: 180ms;
+  --duration-base: 240ms;
+  --duration-slow: 700ms;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-float: 0 24px 80px rgba(0, 0, 0, 0.22);
+}
