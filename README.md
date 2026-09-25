@@ -23,13 +23,12 @@ https://www.primesapience.com/
 ## 文件说明
 
 - `index.html`：页面结构与全部文案
-- `design-system.html`：原初智性设计系统预览页
 - `tokens.css`：共享品牌设计令牌
 - `styles.css`：品牌视觉、响应式布局与动效样式
-- `design-system.css`：设计系统展示页样式
 - `app.js`：导航、滚动反馈和首屏交互画布
 - `assets/original-logo.png`：用户提供的公司 logo 原图
-- `DESIGN_SYSTEM.md`：设计原则、组件与使用规范
+
+设计系统作为内部知识资产维护，不包含在官网公开部署产物中。
 
 ## 上线前建议
 
